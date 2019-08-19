@@ -1,0 +1,10 @@
+body {font-size:12px verdana;}
+
+#result p {
+    border:1px solid #CCC;
+    margin:3px;
+    padding:5px;
+}
+
+#result .size {color:#666;}
+#result strong {padding:5px;}
