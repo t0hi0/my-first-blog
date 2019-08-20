@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/python,windows,pycharm
 # Edit at https://www.gitignore.io/?templates=python,windows,pycharm
 
@@ -237,3 +236,5 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/python,windows,pycharm
 '.idea' 
+'.idea' 
+
