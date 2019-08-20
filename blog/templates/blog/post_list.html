@@ -2,8 +2,9 @@
 
 {% block content %}
     {% for post in posts %}
-        <p>Опубликовано: {{ post.published_date }}</p>
-        <h1 class="display-4"><a href="">{{ post.title }}</a></h1>
+        <p class="lead">Опубликовано: {{ post.published_date }}</p>
+        <h1 class="display-4"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
         <p class="lead">{{ post.text|linebreaksbr }}</p>
+        <hr>
     {% endfor %}
 {% endblock %}
